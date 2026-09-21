@@ -14,6 +14,135 @@ book:
   repo-actions: [issue]
   site-url: https://oksure.github.io/vibecoding/en/
   sidebar:
+    collapse-level: 2
+    contents:
+      - index.qmd
+      - section: "Part 1 · The Birth and History of Vibe Coding"
+        contents:
+          - section: "Chapter 1 · Where Did Vibe Coding Come From?"
+            contents:
+              - sections/01-1-natural-language-programming.qmd
+              - sections/01-2-end-user-programming.qmd
+              - sections/01-3-no-code-low-code.qmd
+              - sections/01-4-coding-assistants.qmd
+          - section: "Chapter 2 · The Birth of Vibe Coding"
+            contents:
+              - sections/02-1-origin-of-vibe-coding.qmd
+              - sections/02-2-vibe-coding-loop.qmd
+              - sections/02-3-spread-of-vibe-coding.qmd
+              - sections/02-4-definition-and-scope.qmd
+          - section: "Chapter 3 · From Prompts to Agents"
+            contents:
+              - sections/03-1-prompt-engineering.qmd
+              - sections/03-2-chop-and-agentic-coding.qmd
+              - sections/03-3-context-engineering.qmd
+              - sections/03-4-spec-driven-development.qmd
+              - sections/03-5-coding-tool-landscape.qmd
+      - section: "Part 2 · Vibe Coding in Practice, A to Z"
+        contents:
+          - section: "Chapter 4 · What We Build with Vibe Coding"
+            contents:
+              - sections/04-1-personal-tools-automation.qmd
+              - sections/04-2-data-analysis-workflow.qmd
+              - sections/04-3-web-app-development.qmd
+              - sections/04-4-docs-and-media.qmd
+          - section: "Chapter 5 · Choosing and Operating AI Models"
+            contents:
+              - sections/05-1-model-selection.qmd
+              - sections/05-2-context-window.qmd
+              - sections/05-3-open-weight-vs-closed-weight.qmd
+              - sections/05-4-model-routing.qmd
+              - sections/05-5-cost-latency-rate-limits.qmd
+          - section: "Chapter 6 · Agent Workflow Engineering"
+            contents:
+              - sections/06-1-requirements-and-done-criteria.qmd
+              - sections/06-2-loop-engineering.qmd
+              - sections/06-3-context-engineering.qmd
+              - sections/06-4-graph-engineering.qmd
+          - section: "Chapter 7 · Harness: What Determines Success Beyond the Model"
+            contents:
+              - sections/07-1-agent-harness.qmd
+              - sections/07-2-choosing-an-agent-harness.qmd
+              - sections/07-3-tools-mcp-skills.qmd
+              - sections/07-4-memory-and-checkpoints.qmd
+      - section: "Part 3 · Can We Trust Vibe-Coded Software?"
+        contents:
+          - section: "Chapter 8 · How AI Writes Code"
+            contents:
+              - sections/08-1-next-token-to-code.qmd
+              - sections/08-2-training-and-inference.qmd
+              - sections/08-3-tool-calling-and-sandbox.qmd
+              - sections/08-4-verification-asymmetry.qmd
+          - section: "Chapter 9 · How AI Coding Fails"
+            contents:
+              - sections/09-1-hallucination.qmd
+              - sections/09-2-over-editing-and-regressions.qmd
+              - sections/09-3-prompt-injection-and-tool-poisoning.qmd
+              - sections/09-4-generated-code-supply-chain.qmd
+              - sections/09-5-privacy-copyright-licensing.qmd
+          - section: "Chapter 10 · Verifying “It Works”"
+            contents:
+              - sections/10-1-acceptance-tests.qmd
+              - sections/10-2-debugging-with-agents.qmd
+              - sections/10-3-agent-observability.qmd
+              - sections/10-4-benchmarks-and-evals.qmd
+      - section: "Part 4 · Software Engineering in the Age of Vibe Coding"
+        contents:
+          - section: "Chapter 11 · Have the Standards for Good Code Changed?"
+            contents:
+              - sections/11-1-clean-code-in-the-ai-era.qmd
+              - sections/11-2-solid-patterns-and-overengineering.qmd
+              - sections/11-3-abstraction-information-hiding.qmd
+          - section: "Chapter 12 · How Development Methods Are Changing"
+            contents:
+              - sections/12-1-spec-agile-tdd.qmd
+              - sections/12-2-pair-programming-and-review.qmd
+              - sections/12-3-change-control-with-git-ci.qmd
+          - section: "Chapter 13 · Build Fast, Maintain for the Long Run"
+            contents:
+              - sections/13-1-complexity-and-technical-debt.qmd
+              - sections/13-2-documentation-for-humans-and-ai.qmd
+              - sections/13-3-conways-law-and-ai-teams.qmd
+      - section: "Part 5 · Learning and Working in the Age of Vibe Coding"
+        contents:
+          - section: "Chapter 14 · Learning Still Matters When AI Writes Code"
+            contents:
+              - sections/14-1-core-programming-skills.qmd
+              - sections/14-2-learning-from-ai-code.qmd
+              - sections/14-3-building-expertise.qmd
+              - sections/14-4-ai-in-education-and-assessment.qmd
+          - section: "Chapter 15 · How Work and Teams Are Changing"
+            contents:
+              - sections/15-1-human-ai-workflow.qmd
+              - sections/15-2-measuring-ai-assisted-productivity.qmd
+              - sections/15-3-ai-adoption-playbook.qmd
+              - sections/15-4-ai-development-governance.qmd
+      - section: "Part 6 · The Future of Vibe Coding"
+        contents:
+          - section: "Chapter 16 · How Agents Become a Team"
+            contents:
+              - sections/16-1-subagent-delegation.qmd
+              - sections/16-2-multi-agent-orchestration.qmd
+              - sections/16-3-always-on-agents.qmd
+              - sections/16-4-computer-use-agents.qmd
+          - section: "Chapter 17 · Where Models and Tools Are Headed"
+            contents:
+              - sections/17-1-future-model-landscape.qmd
+              - sections/17-2-operating-open-weight-models.qmd
+              - sections/17-3-future-development-environments.qmd
+              - sections/17-4-harness-and-tool-standards.qmd
+          - section: "Chapter 18 · What Future Will We Choose?"
+            contents:
+              - sections/18-1-shifting-bottlenecks.qmd
+              - sections/18-2-future-of-programming-languages.qmd
+              - sections/18-3-understanding-gap.qmd
+              - sections/18-4-abundance-and-slop.qmd
+              - sections/18-5-ai-co-scientists-and-self-improving-agents.qmd
+      - section: "Appendices"
+        contents:
+          - glossary.qmd
+          - reading-list.qmd
+          - contributors.qmd
     tools:
       - icon: globe
         text: "한국어판 (원문)"
