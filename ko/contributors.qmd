@@ -14,7 +14,9 @@ authoritative-lang: ko
 
 **티칭 팀**
 
-- (확정 후 기재)
+- 배성호 (sunghobae@snu.ac.kr)
+- 이도훈 (dohun754@snu.ac.kr)
+- 황영석 (yshwang35@snu.ac.kr)
 
 **저자 (수강생)**
 
