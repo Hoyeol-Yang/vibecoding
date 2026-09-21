@@ -48,10 +48,10 @@ A living book on the history, art, and concepts of vibe coding, co-written on Gi
 ```
 TOPICS.md        꼭지 목록 + 담당 현황 (self-select 게시판)
 ko/              한국어판 (Quarto book, 기본 원문)
-  chapters/      챕터 = 리드 문단 + 섹션 include 래퍼
-  sections/      꼭지 파일 (섹션 하나 = 파일 하나 = 담당자 한 명)
-  glossary/      개념 사전 항목 파일
-en/              영어판 (같은 구조, 대부분 AI 번역 생성물)
+  chapters/      중주제: 중주제를 맡은 팀이 담당하여 집필
+  sections/      소주제: 소주제를 맡은 팀원이 담당하여 집필
+  glossary/      개념사전
+en/              영어판 - 동일한 구조로 구성
 tools/
   build          웹(HTML) + PDF(Typst) 빌드, _site/ 조립
   translate      ko <-> en AI 번역 (변경된 파일만, -j 병렬)
