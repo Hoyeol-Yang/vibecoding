@@ -26,30 +26,109 @@ book:
     right: "[GitHub](https://github.com/oksure/vibecoding)"
   chapters:
     - index.qmd
-    # - part: "Part I · History of Vibe Coding"
-    #   chapters:
-    #     - chapters/01-before-vibe-coding.qmd
-    #     - chapters/02-birth-of-vibe-coding.qmd
-    #     - chapters/03-evolution-of-discourse.qmd
-    # - part: "Part II · The Art of Vibe Coding"
-    #   chapters:
-    #     - chapters/04-opportunities.qmd
-    #     - chapters/05-best-practices.qmd
-    #     - chapters/06-artifacts.qmd
-    #     - chapters/07-content-generation.qmd
-    # - part: "Part III · Principles and Limits"
-    #   chapters:
-    #     - chapters/08-how-it-works.qmd
-    #     - chapters/09-limits-and-risks.qmd
-    # - part: "Part IV · Software Engineering, Rediscovered"
-    #   chapters:
-    #     - chapters/10-rediscovery-methods.qmd
-    #     - chapters/11-rediscovery-principles.qmd
-    #     - chapters/12-rediscovery-practices.qmd
-    # - part: "Part V · Learning and Working"
-    #   chapters:
-    #     - chapters/13-learning.qmd
-    #     - chapters/14-working.qmd
+    - part: "Part 1 · The Birth and History of Vibe Coding"
+      chapters:
+        # 1장 바이브 코딩은 어디에서 왔을까 (담당: 소연경, 박성환, 이성진, 김지수)
+        - sections/01-1-natural-language-programming.qmd
+        - sections/01-2-end-user-programming.qmd
+        - sections/01-3-no-code-low-code.qmd
+        - sections/01-4-coding-assistants.qmd
+        # 2장 바이브 코딩의 탄생 (담당: 황규하, 김한결, 고수안, 이은별)
+        - sections/02-1-origin-of-vibe-coding.qmd
+        - sections/02-2-vibe-coding-loop.qmd
+        - sections/02-3-spread-of-vibe-coding.qmd
+        - sections/02-4-definition-and-scope.qmd
+        # 3장 프롬프트에서 에이전트까지 (담당: 조원빈, 김도환, 이경민, 한유종, 김수민)
+        - sections/03-1-prompt-engineering.qmd
+        - sections/03-2-chop-and-agentic-coding.qmd
+        - sections/03-3-context-engineering.qmd
+        - sections/03-4-spec-driven-development.qmd
+        - sections/03-5-coding-tool-landscape.qmd
+    - part: "Part 2 · Vibe Coding in Practice, A to Z"
+      chapters:
+        # 4장 바이브 코딩으로 만드는 것들 (담당: 김현기, 김진모, 정재윤, 양진원)
+        - sections/04-1-personal-tools-automation.qmd
+        - sections/04-2-data-analysis-workflow.qmd
+        - sections/04-3-web-app-development.qmd
+        - sections/04-4-docs-and-media.qmd
+        # 5장 AI 모델을 고르고 운영하는 법 (담당: 깅지승, 안소현, 김동현, 허재윤, 이서원)
+        - sections/05-1-model-selection.qmd
+        - sections/05-2-context-window.qmd
+        - sections/05-3-open-weight-vs-closed-weight.qmd
+        - sections/05-4-model-routing.qmd
+        - sections/05-5-cost-latency-rate-limits.qmd
+        # 6장 에이전트 워크플로 엔지니어링 (담당: 윤소리 / Sori Yun, 고영조/Ko Young Jo, 백승원, 홍재민 / Jaemin Hong)
+        - sections/06-1-requirements-and-done-criteria.qmd
+        - sections/06-2-loop-engineering.qmd
+        - sections/06-3-context-engineering.qmd
+        - sections/06-4-graph-engineering.qmd
+        # 7장 하네스: 모델 밖에서 성패를 가르는 것 (담당: 임승원, 박수영, 손영주, 오승연)
+        - sections/07-1-agent-harness.qmd
+        - sections/07-2-choosing-an-agent-harness.qmd
+        - sections/07-3-tools-mcp-skills.qmd
+        - sections/07-4-memory-and-checkpoints.qmd
+    - part: "Part 3 · Can We Trust Vibe-Coded Software?"
+      chapters:
+        # 8장 AI는 어떻게 코드를 쓰는가 (담당: 최아정, 조준영, 김기홍, 김영우)
+        - sections/08-1-next-token-to-code.qmd
+        - sections/08-2-training-and-inference.qmd
+        - sections/08-3-tool-calling-and-sandbox.qmd
+        - sections/08-4-verification-asymmetry.qmd
+        # 9장 AI 코딩은 어떻게 실패하는가 (담당: 양효걸, 박동혁, 박정훈, 장진우, 이민영)
+        - sections/09-1-hallucination.qmd
+        - sections/09-2-over-editing-and-regressions.qmd
+        - sections/09-3-prompt-injection-and-tool-poisoning.qmd
+        - sections/09-4-generated-code-supply-chain.qmd
+        - sections/09-5-privacy-copyright-licensing.qmd
+        # 10장 ‘돌아간다’를 검증하는 법 (담당: 김선진, 황가훤, 이홍창, 이한결)
+        - sections/10-1-acceptance-tests.qmd
+        - sections/10-2-debugging-with-agents.qmd
+        - sections/10-3-agent-observability.qmd
+        - sections/10-4-benchmarks-and-evals.qmd
+    - part: "Part 4 · Software Engineering in the Age of Vibe Coding"
+      chapters:
+        # 11장 좋은 코드의 기준은 달라졌는가 (담당: 김진웅, 공인진, 이진원)
+        - sections/11-1-clean-code-in-the-ai-era.qmd
+        - sections/11-2-solid-patterns-and-overengineering.qmd
+        - sections/11-3-abstraction-information-hiding.qmd
+        # 12장 개발 방법론은 어떻게 달라지는가 (담당: 박혜원, 원종빈, 이현민)
+        - sections/12-1-spec-agile-tdd.qmd
+        - sections/12-2-pair-programming-and-review.qmd
+        - sections/12-3-change-control-with-git-ci.qmd
+        # 13장 빠르게 만들고, 오래 고치기 (담당: 박준수, 송우정, 양호열)
+        - sections/13-1-complexity-and-technical-debt.qmd
+        - sections/13-2-documentation-for-humans-and-ai.qmd
+        - sections/13-3-conways-law-and-ai-teams.qmd
+    - part: "Part 5 · Learning and Working in the Age of Vibe Coding"
+      chapters:
+        # 14장 AI가 코드를 써도 배움은 남는다 (담당: 김창현, 이형석, 박재익, 차은성)
+        - sections/14-1-core-programming-skills.qmd
+        - sections/14-2-learning-from-ai-code.qmd
+        - sections/14-3-building-expertise.qmd
+        - sections/14-4-ai-in-education-and-assessment.qmd
+        # 15장 일과 팀은 어떻게 바뀌는가 (담당: 문수용, 원제상, 권성민, 손서빈)
+        - sections/15-1-human-ai-workflow.qmd
+        - sections/15-2-measuring-ai-assisted-productivity.qmd
+        - sections/15-3-ai-adoption-playbook.qmd
+        - sections/15-4-ai-development-governance.qmd
+    - part: "Part 6 · The Future of Vibe Coding"
+      chapters:
+        # 16장 에이전트는 어떻게 팀이 되는가 (담당: 한인수, 권순우, 박민주, 옥준용)
+        - sections/16-1-subagent-delegation.qmd
+        - sections/16-2-multi-agent-orchestration.qmd
+        - sections/16-3-always-on-agents.qmd
+        - sections/16-4-computer-use-agents.qmd
+        # 17장 모델과 도구는 어디로 가는가 (담당: 권치혁, 전용주, 정민수, 김현우)
+        - sections/17-1-future-model-landscape.qmd
+        - sections/17-2-operating-open-weight-models.qmd
+        - sections/17-3-future-development-environments.qmd
+        - sections/17-4-harness-and-tool-standards.qmd
+        # 18장 우리는 어떤 미래를 선택할 것인가 (담당: 권준성, 조상연, 장규진, 오승준, 이건우)
+        - sections/18-1-shifting-bottlenecks.qmd
+        - sections/18-2-future-of-programming-languages.qmd
+        - sections/18-3-understanding-gap.qmd
+        - sections/18-4-abundance-and-slop.qmd
+        - sections/18-5-ai-co-scientists-and-self-improving-agents.qmd
   appendices:
     - glossary.qmd
     - reading-list.qmd
