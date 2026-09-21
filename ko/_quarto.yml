@@ -26,30 +26,30 @@ book:
     right: "[GitHub](https://github.com/oksure/vibecoding)"
   chapters:
     - index.qmd
-    - part: "제1부 · 바이브 코딩의 역사"
-      chapters:
-        - chapters/01-before-vibe-coding.qmd
-        - chapters/02-birth-of-vibe-coding.qmd
-        - chapters/03-evolution-of-discourse.qmd
-    - part: "제2부 · 바이브 코딩의 기술"
-      chapters:
-        - chapters/04-opportunities.qmd
-        - chapters/05-best-practices.qmd
-        - chapters/06-artifacts.qmd
-        - chapters/07-content-generation.qmd
-    - part: "제3부 · 원리와 한계"
-      chapters:
-        - chapters/08-how-it-works.qmd
-        - chapters/09-limits-and-risks.qmd
-    - part: "제4부 · 소프트웨어 엔지니어링의 재발견"
-      chapters:
-        - chapters/10-rediscovery-methods.qmd
-        - chapters/11-rediscovery-principles.qmd
-        - chapters/12-rediscovery-practices.qmd
-    - part: "제5부 · 공부와 일"
-      chapters:
-        - chapters/13-learning.qmd
-        - chapters/14-working.qmd
+    # - part: "제1부 · 바이브 코딩의 역사"
+    #   chapters:
+    #     - chapters/01-before-vibe-coding.qmd
+    #     - chapters/02-birth-of-vibe-coding.qmd
+    #     - chapters/03-evolution-of-discourse.qmd
+    # - part: "제2부 · 바이브 코딩의 기술"
+    #   chapters:
+    #     - chapters/04-opportunities.qmd
+    #     - chapters/05-best-practices.qmd
+    #     - chapters/06-artifacts.qmd
+    #     - chapters/07-content-generation.qmd
+    # - part: "제3부 · 원리와 한계"
+    #   chapters:
+    #     - chapters/08-how-it-works.qmd
+    #     - chapters/09-limits-and-risks.qmd
+    # - part: "제4부 · 소프트웨어 엔지니어링의 재발견"
+    #   chapters:
+    #     - chapters/10-rediscovery-methods.qmd
+    #     - chapters/11-rediscovery-principles.qmd
+    #     - chapters/12-rediscovery-practices.qmd
+    # - part: "제5부 · 공부와 일"
+    #   chapters:
+    #     - chapters/13-learning.qmd
+    #     - chapters/14-working.qmd
   appendices:
     - glossary.qmd
     - reading-list.qmd
