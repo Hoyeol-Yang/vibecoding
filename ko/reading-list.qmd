@@ -1,0 +1,39 @@
+---
+authoritative-lang: ko
+---
+
+# 읽기 자료 {#sec-reading}
+
+수업과 집필의 공통 기반이 되는 자료 목록이다. 발표 담당자는 자기 챕터의 자료를 여기에 추가한다. 규칙: 1차 출처를 우선하고, 확인한 날짜를 적고, 요약 한 줄을 단다.
+
+## 원전
+
+- Andrej Karpathy, [바이브 코딩 원 트윗](https://x.com/karpathy/status/1886192184808149383) (X, 2025-02). 용어의 탄생. "fully give in to the vibes, embrace exponentials, and forget that the code even exists."
+- Andrej Karpathy, [1주년 회고 트윗](https://x.com/karpathy/status/2019137879310836075) (X, 2026-02). 본인이 돌아본 용어의 확산 과정. "shower of thoughts throwaway tweet."
+- Andrej Karpathy, [Software 2.0](https://karpathy.medium.com/software-2-0-a64152b37c35) (Medium, 2017). 신경망이 코드를 대체한다는 논의의 원류.
+
+## 담론
+
+- Simon Willison, [Not all AI-assisted programming is vibe coding (but vibe coding rocks)](https://simonwillison.net/2025/Mar/19/vibe-coding/) (2025-03-19). 용어의 좁은 뜻과 넓은 뜻을 가른 대표 글.
+- Collins Dictionary, [Word of the Year 2025 발표](https://www.collinsdictionary.com/us/woty) (2025-11). 일반어로의 편입. 관련 보도: [CNN](https://www.cnn.com/2025/11/06/tech/vibe-coding-collins-word-year-scli-intl).
+- CodeRabbit, [A semantic history of vibe coding](https://www.coderabbit.ai/blog/a-semantic-history-how-the-term-vibe-coding-went-from-a-tweet-to-prod) . 용어의 의미 변천 정리.
+- Karpathy, [컨텍스트 엔지니어링 지지 트윗](https://x.com/karpathy/status/1937902205765607626) (2025-06). Tobi Lütke의 명명(2025-06-19)을 정식화한 계기. 정리 글: [Simon Willison](https://simonwillison.net/2025/Jun/27/context-engineering/), [Phil Schmid](https://www.philschmid.de/context-engineering).
+- GitHub, [Spec-driven development with AI: Spec Kit 공개](https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/) (2025-09). 바이브의 반작용으로서의 명세 우선 워크플로.
+- Simon Willison, [Vibe engineering](https://simonw.substack.com/p/vibe-engineering) (2025년 가을). 책임지는 가속이라는 재정의 시도.
+- ADTmag, [Loop Engineering Emerges as Developers Put AI Coding Agents on Repeat](https://adtmag.com/articles/2026/07/01/loop-engineering-emerges-as-developers-put-ai-coding-agents-on-repeat.aspx) (2026-07-01). 루프 엔지니어링 개념의 부상 보도.
+- Faros AI, [Harness Engineering](https://www.faros.ai/blog/harness-engineering) (2026). "Agent = Model + Harness", 프롬프트→컨텍스트→하네스 3단계론.
+- O'Reilly Radar 팟캐스트, [Vibe Coding with Steve Yegge](https://www.oreilly.com/radar/podcast/generative-ai-in-the-real-world-vibe-coding-with-steve-yegge/). CHOP(chat-oriented programming)의 명명자 인터뷰. Gene Kim·Steve Yegge의 단행본 "Vibe Coding"도 함께 볼 것(출간 정보 확인 후 추가).
+
+## 실무
+
+- Anthropic, [Building effective agents](https://www.anthropic.com/research/building-effective-agents) (2024-12). 에이전트 설계 원칙의 기준 문서.
+- Anthropic, [Prompt engineering 공식 가이드](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview). 전사(前史) 쪽 기준 문서.
+
+## 교육과 학습
+
+- David Deming, Lucy Swedberg, [The Value of Human Skills in an AI Economy](https://hbsp.harvard.edu/webinars/the-value-of-human-skills-in-an-ai-economy/) (Harvard Business Impact Education 웨비나, 2026-07-28, 2026-07-29 확인). 인간의 비교우위를 빠른 사회적 학습과 전략적 상호작용에서 찾고, 수업에서는 먼저 스스로 씨름한 뒤 AI를 비판과 피드백에 쓰는 순서를 제안한다.
+
+::: {.callout-note}
+## 수집 대기
+루프 엔지니어링의 원 포스트(Addy Osmani, 2026-06)와 그 원류가 된 실무자 글들, 국내 논의 자료, 각 챕터별 핵심 문헌. 담당자가 챕터 조사와 함께 채울 것. 링크는 반드시 접속 확인 후 추가한다.
+:::

@@ -1,0 +1,52 @@
+---
+authoritative-lang: ko
+---
+
+# 개념 사전 {#sec-glossary}
+
+바이브 코딩 주변에서 태어나고 진화하는 개념들의 사전이다. 항목마다 정의, 유래, 현재 상태를 적는다. 개념은 계속 나타나고 뜻이 바뀌므로 이 부록은 영원히 미완성이며, 그래서 이 책에서 가장 자주 갱신되는 부분이다. 항목 하나가 곧 기여 단위다. 새 항목 추가와 담당은 저장소의 TOPICS.md에서 한다.
+
+::: {.callout-tip}
+## 항목 형식
+정의 두어 문장, 유래(누가 언제), 현재 상태. 유래의 날짜와 인물은 1차 출처를 확인하고 링크를 단다. 확인하지 못한 것은 "유래 확인 필요"로 표시한다.
+:::
+
+{{< include glossary/vibe-coding.qmd >}}
+
+{{< include glossary/prompt-engineering.qmd >}}
+
+{{< include glossary/context-engineering.qmd >}}
+
+{{< include glossary/agentic-coding.qmd >}}
+
+{{< include glossary/chop.qmd >}}
+
+{{< include glossary/vibe-engineering.qmd >}}
+
+{{< include glossary/loop-engineering.qmd >}}
+
+{{< include glossary/agent-harness.qmd >}}
+
+{{< include glossary/spec-driven-development.qmd >}}
+
+{{< include glossary/subagent.qmd >}}
+
+{{< include glossary/human-in-the-loop.qmd >}}
+
+{{< include glossary/hallucination.qmd >}}
+
+{{< include glossary/slop.qmd >}}
+
+{{< include glossary/slopsquatting.qmd >}}
+
+{{< include glossary/mcp.qmd >}}
+
+{{< include glossary/rag.qmd >}}
+
+{{< include glossary/tokens-context-window.qmd >}}
+
+{{< include glossary/evals.qmd >}}
+
+{{< include glossary/guardrails.qmd >}}
+
+{{< include glossary/software-2-3.qmd >}}

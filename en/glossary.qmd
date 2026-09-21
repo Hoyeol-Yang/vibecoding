@@ -1,0 +1,53 @@
+---
+authoritative-lang: ko
+---
+
+<!-- MACHINE-TRANSLATED from ko/glossary.qmd source-sha256:23ff939de8ff8b7f model:sonnet date:2026-07-12 | DO NOT EDIT: edit ko/glossary.qmd and run tools/translate -->
+# Concept Dictionary {#sec-glossary}
+
+This is a dictionary of concepts that are born and evolve around vibe coding. Each entry records a definition, its origin, and its current status. Because concepts keep appearing and their meanings keep shifting, this appendix is permanently unfinished, and so it is the most frequently updated part of this book. One entry is a unit of contribution. Add new entries and claim ownership in the repository's TOPICS.md.
+
+::: {.callout-tip}
+## Entry format
+A couple of sentences of definition, the origin (who, when), and the current status. For the date and person in the origin, check the primary source and link to it. Mark anything unconfirmed as "origin needs confirmation."
+:::
+
+{{< include glossary/vibe-coding.qmd >}}
+
+{{< include glossary/prompt-engineering.qmd >}}
+
+{{< include glossary/context-engineering.qmd >}}
+
+{{< include glossary/agentic-coding.qmd >}}
+
+{{< include glossary/chop.qmd >}}
+
+{{< include glossary/vibe-engineering.qmd >}}
+
+{{< include glossary/loop-engineering.qmd >}}
+
+{{< include glossary/agent-harness.qmd >}}
+
+{{< include glossary/spec-driven-development.qmd >}}
+
+{{< include glossary/subagent.qmd >}}
+
+{{< include glossary/human-in-the-loop.qmd >}}
+
+{{< include glossary/hallucination.qmd >}}
+
+{{< include glossary/slop.qmd >}}
+
+{{< include glossary/slopsquatting.qmd >}}
+
+{{< include glossary/mcp.qmd >}}
+
+{{< include glossary/rag.qmd >}}
+
+{{< include glossary/tokens-context-window.qmd >}}
+
+{{< include glossary/evals.qmd >}}
+
+{{< include glossary/guardrails.qmd >}}
+
+{{< include glossary/software-2-3.qmd >}}
