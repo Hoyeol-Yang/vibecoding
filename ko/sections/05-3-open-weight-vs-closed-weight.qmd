@@ -1,0 +1,2 @@
+# §5.3 Open-weight와 Closed-weight 모델 사이 {.unnumbered}
+
