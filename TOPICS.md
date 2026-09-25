@@ -15,10 +15,10 @@
 
 | # | 꼭지 | 파일 | 방향 한 줄 | 담당 | 상태 |
 | --- | --- | --- | --- | --- | --- |
-| §1.1 | **자연어 프로그래밍이란?** | `sections/01-1-natural-language-programming.qmd` | COBOL의 “영어처럼”에서 4GL과 CASE로 이어진 자연어 프로그래밍의 약속과 한계 |  | 미배정 |
-| §1.2 | **스프레드시트 기반 프로그래밍** | `sections/01-2-end-user-programming.qmd` | 스프레드시트가 프로그래밍을 전문가의 일에서 일반 사용자의 문제 해결 도구로 확장한 방식과 그 한계 |  | 미배정 |
-| §1.3 | **노코드 툴의 탄생과 변화** | `sections/01-3-no-code-low-code.qmd` | 블록과 템플릿으로 개발의 진입 장벽을 낮춘 시도와 바이브 코딩에 남긴 유산 |  | 미배정 |
-| §1.4 | **Copilot, Cursor 등 AI 활용 코딩** | `sections/01-4-coding-assistants.qmd` | 규칙 기반 자동완성에서 Copilot과 대화형 코딩 도구로 진화한 과정 |  | 미배정 |
+| §1.1 | **자연어 프로그래밍이란?** | `sections/01-1-natural-language-programming.qmd` | COBOL의 “영어처럼”에서 4GL과 CASE로 이어진 자연어 프로그래밍의 약속과 한계 | 김지수 | 조사 중 |
+| §1.2 | **스프레드시트 기반 프로그래밍** | `sections/01-2-end-user-programming.qmd` | 스프레드시트가 프로그래밍을 전문가의 일에서 일반 사용자의 문제 해결 도구로 확장한 방식과 그 한계 | 이성진 | 조사 중 |
+| §1.3 | **노코드 툴의 탄생과 변화** | `sections/01-3-no-code-low-code.qmd` | 블록과 템플릿으로 개발의 진입 장벽을 낮춘 시도와 바이브 코딩에 남긴 유산 | 박성환 | 조사 중 |
+| §1.4 | **Copilot, Cursor 등 AI 활용 코딩** | `sections/01-4-coding-assistants.qmd` | 규칙 기반 자동완성에서 Copilot과 대화형 코딩 도구로 진화한 과정 | 소연경 | 조사 중 |
 
 ### 2장 바이브 코딩의 탄생 (담당: 황규하, 김한결, 고수안, 이은별)
 
